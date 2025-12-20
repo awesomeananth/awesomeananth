@@ -105,48 +105,69 @@ My job is to make those failures observable, bounded, and recoverable.
 
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="33%" align="center">
 
-**AI Infrastructure Design**
-
-```mermaid
-graph TD
-    A[AI Infrastructure] --> B[Evaluation]
-    A --> C[Observability]
-    A --> D[Reliability]
-    B --> E[Offline Metrics]
-    B --> F[Online Testing]
-    C --> G[Latency Tracking]
-    C --> H[Drift Detection]
-    D --> I[Guardrails]
-    D --> J[Fallbacks]
-```
-
-</td>
-<td width="50%" align="center">
-
-**Distributed Systems Architecture**
+**Distributed Systems**
 
 ```mermaid
 graph TD
     Client[Clients] --> LB[Load Balancer]
-    LB --> API1[API Server 1]
-    LB --> API2[API Server 2]
-    API1 --> Cache[Redis Cache]
-    API2 --> Cache
+    LB --> API1[API Server]
+    API1 --> Cache[Cache Layer]
     API1 --> Queue[Message Queue]
-    API2 --> Queue
     Queue --> Worker[Workers]
     Worker --> DB[(Database)]
     Cache --> DB
-    DB --> Replica[(Read Replicas)]
+    DB --> Replica[(Replicas)]
 ```
+
+<sub>Scalable web services</sub>
+
+</td>
+<td width="33%" align="center">
+
+**AI Infrastructure**
+
+```mermaid
+graph TD
+    A[AI System] --> B[Evaluation]
+    A --> C[Observability]
+    A --> D[Reliability]
+    B --> E[Metrics]
+    B --> F[Testing]
+    C --> G[Latency]
+    C --> H[Drift]
+    D --> I[Guardrails]
+    D --> J[Fallbacks]
+```
+
+<sub>Production ML systems</sub>
+
+</td>
+<td width="34%" align="center">
+
+**RAG/LLM Architecture**
+
+```mermaid
+graph TD
+    Query[User Query] --> Embed[Embedding Model]
+    Embed --> VectorDB[(Vector DB)]
+    VectorDB --> Retriever[Retrieve Top-K]
+    Retriever --> Context[Context + Query]
+    Context --> LLM[LLM Inference]
+    LLM --> Guard[Output Guardrails]
+    Guard --> Response[Response]
+    Response --> Eval[Evaluation Loop]
+    Eval --> LLM
+```
+
+<sub>Perplexity/ChatGPT-style RAG</sub>
 
 </td>
 </tr>
 </table>
 
-**Key Competencies:** Production ML Systems • Evaluation-Driven Development • Scalable Web Services • Observability • Reliability Engineering • Distributed Tracing • Load Balancing • Concurrency Control • Event-Driven Architectures
+**Architecture Competencies:** Scalable Web Services • Production ML Infrastructure • RAG Pipelines • Vector Search • LLM Orchestration • Real-time Inference • Evaluation-Driven Development • Distributed Tracing • Load Balancing • Reliability Engineering
 
 </div>
 
