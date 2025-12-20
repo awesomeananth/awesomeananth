@@ -1,11 +1,12 @@
 # 👋 Hi, I'm Ananth
 
-**Member of Technical Staff – AI Infrastructure & Distributed Systems**  
+**AI Infrastructure & Distributed Systems Engineer**  
 LLM Platforms • RAG • Agentic Systems • Building reliable systems for probabilistic intelligence
 
 ## 🧠 Focus Areas
 
 - AI Infrastructure & LLM Platforms
+- Machine Learning Engineering & MLOps
 - Evaluation-Driven Development (EDD)
 - Retrieval-Augmented Generation (RAG)
 - Agentic Systems & Tooling
@@ -15,7 +16,7 @@ LLM Platforms • RAG • Agentic Systems • Building reliable systems for prob
 
 I design and build production-grade AI systems where large models meet real-world constraints.
 
-My background spans distributed systems, cloud platforms, and high-throughput APIs, with recent focus on LLM-backed services, RAG pipelines, and agentic workflows. I care less about demos — and more about evaluation, observability, and reliability.
+My background spans distributed systems, cloud platforms, and high-throughput APIs, with recent focus on LLM-backed services, RAG pipelines, and agentic workflows. **I've worked across multiple stacks, with deep expertise in Python-based AI infrastructure on AWS and GCP.** I care less about demos — and more about evaluation, observability, and reliability.
 
 I'm especially interested in:
 
@@ -94,8 +95,14 @@ My job is to make those failures observable, bounded, and recoverable.
 
 ### System Design Expertise
 
+<table>
+<tr>
+<td width="50%" align="center">
+
+**AI Infrastructure Design**
+
 ```mermaid
-graph LR
+graph TD
     A[AI Infrastructure] --> B[Evaluation]
     A --> C[Observability]
     A --> D[Reliability]
@@ -107,11 +114,40 @@ graph LR
     D --> J[Fallbacks]
 ```
 
-**Key Competencies:** Production ML Systems • Evaluation-Driven Development • Observability • Reliability Engineering • Distributed Tracing • Load Balancing • Concurrency Control
+</td>
+<td width="50%" align="center">
+
+**Distributed Systems Architecture**
+
+```mermaid
+graph TD
+    Client[Clients] --> LB[Load Balancer]
+    LB --> API1[API Server 1]
+    LB --> API2[API Server 2]
+    API1 --> Cache[Redis Cache]
+    API2 --> Cache
+    API1 --> Queue[Message Queue]
+    API2 --> Queue
+    Queue --> Worker[Workers]
+    Worker --> DB[(Database)]
+    Cache --> DB
+    DB --> Replica[(Read Replicas)]
+```
+
+</td>
+</tr>
+</table>
+
+**Key Competencies:** Production ML Systems • Evaluation-Driven Development • Scalable Web Services • Observability • Reliability Engineering • Distributed Tracing • Load Balancing • Concurrency Control • Event-Driven Architectures
 
 </div>
 
-## 🧪 What You'll Find in My Repos
+## 🚧 Current Work
+
+Currently building reference implementations for production AI systems. **Reach out to discuss my production work, system design decisions, and infrastructure tradeoffs.**
+
+<!--
+## 🧪 What You'll Find in My Repos (Disabled - enable when repos are ready)
 
 Rather than toy projects, my repositories tend to focus on:
 
@@ -121,6 +157,7 @@ Rather than toy projects, my repositories tend to focus on:
 - Design notes on scaling, reliability, and tradeoffs
 
 I value clarity over cleverness and design rationale over flash.
+-->
 
 
 
