@@ -52,25 +52,64 @@ My job is to make those failures observable, bounded, and recoverable.
 - **Assume uncertainty** — design for ambiguity, not perfection
 - **Prefer boring infra** — reliability beats novelty in production
 
-## 💻 Tech Stack (Representative)
+## 💻 Tech Stack
 
-**Core Languages**  
-Python, Java, C#, JavaScript / TypeScript
+<div align="center">
 
-**Distributed Systems & Backend**  
-REST, gRPC, OpenAPI, ProtoBuf  
-Event-driven systems (Kafka-style architectures)  
-Load balancing, sharding, partitioning, concurrency control
+### Core Engineering Stack
 
-**Cloud & Platform**  
-AWS, Azure, GCP  
-Kubernetes, Docker, GitOps  
-Infrastructure for scale and failure
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=python,java,cs,js,ts" alt="Languages"/><br>
+<sub><b>Languages</b></sub><br>
+<sub>Python • Java • C# • JS/TS</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" alt="AI/ML"/><br>
+<sub><b>AI/ML Frameworks</b></sub><br>
+<sub>PyTorch • TensorFlow • scikit-learn</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker" alt="Cloud"/><br>
+<sub><b>Cloud & Infrastructure</b></sub><br>
+<sub>AWS • Azure • GCP • K8s • Docker</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=kafka,redis,postgres,mongodb" alt="Data"/><br>
+<sub><b>Data & Streaming</b></sub><br>
+<sub>Kafka • Redis • SQL • NoSQL</sub>
+</td>
+</tr>
+</table>
 
-**AI / ML (Applied)**  
-PyTorch, TensorFlow, scikit-learn  
-LLMs, RAG pipelines, vector search  
-Prompt iteration, inference optimization, evaluation frameworks
+### AI Infrastructure Specializations
+
+| 🤖 **LLM & Agentic Systems** | 🔍 **RAG & Search** | ⚡ **Production ML** | 🏗️ **Distributed Systems** |
+|:---:|:---:|:---:|:---:|
+| LLM orchestration | Vector databases | Model serving | Event-driven architectures |
+| Agent frameworks | Semantic search | Inference optimization | High-throughput APIs |
+| Tool-use patterns | Retrieval pipelines | Cost controls | gRPC • REST • ProtoBuf |
+| Prompt engineering | Embedding models | A/B testing | Sharding • Partitioning |
+
+### System Design Expertise
+
+```mermaid
+graph LR
+    A[AI Infrastructure] --> B[Evaluation]
+    A --> C[Observability]
+    A --> D[Reliability]
+    B --> E[Offline Metrics]
+    B --> F[Online Testing]
+    C --> G[Latency Tracking]
+    C --> H[Drift Detection]
+    D --> I[Guardrails]
+    D --> J[Fallbacks]
+```
+
+**Key Competencies:** Production ML Systems • Evaluation-Driven Development • Observability • Reliability Engineering • Distributed Tracing • Load Balancing • Concurrency Control
+
+</div>
 
 ## 🧪 What You'll Find in My Repos
 
