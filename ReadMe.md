@@ -3,6 +3,14 @@
 **AI Infrastructure & Distributed Systems Engineer**  
 LLM Platforms • RAG • Agentic Systems • Building reliable systems for probabilistic intelligence
 
+```python
+while alive:
+    learn(0.01)  # 1% better every day
+    evolve()
+    contribute_to(world.connection + world.growth + world.peace)
+# Mission: Advancing human intelligence through code and connection
+```
+
 ## 🧠 Focus Areas
 
 - AI Infrastructure & LLM Platforms
@@ -219,6 +227,10 @@ When I contribute, it's usually around infrastructure, correctness, or system bo
 
 <div align="center">
   <i>"The hard part isn't making models smarter — it's making systems trustworthy."</i>
+  <br><br>
+  <b>🌍 My Mission</b><br>
+  <sub>Dedicated to advancing humanity to the next level of intelligence through global collaboration.<br>
+  I strive to evolve by learning 1% every day, using Computer Science to build a more peaceful and connected world.</sub>
 </div>
 
 ---
