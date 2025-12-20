@@ -102,13 +102,40 @@ When I contribute, it's usually around infrastructure, correctness, or system bo
 - Reducing operational risk as intelligence increases
 - Helping teams move faster without losing control
 
-## 🌐 Connect
+## 🌐 Let's Connect
 
 <div align="center">
+  <img src="assets/connect-banner.png" alt="Connect" width="80%" style="max-width: 600px;"/>
+</div>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ananthpesaru)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white)](https://ananthpesaru.vercel.app/)
-[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/AwesomeAnanth)
+<div align="center">
+  
+### 📬 Reach Out
+  
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://linkedin.com/in/ananthpesaru">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<br><sub><b>Professional Network</b></sub>
+</a>
+</td>
+<td align="center" width="33%">
+<a href="mailto:ananth.pesaru@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+<br><sub><b>ananth.pesaru@gmail.com</b></sub>
+</a>
+</td>
+<td align="center" width="34%">
+<a href="https://ananthpesaru.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+<br><sub><b>Live Projects & Work</b></sub>
+</a>
+</td>
+</tr>
+</table>
+
+[![X Follow](https://img.shields.io/badge/Follow_on_X-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AwesomeAnanth)
 
 </div>
 
@@ -121,7 +148,7 @@ When I contribute, it's usually around infrastructure, correctness, or system bo
 ---
 
 <div align="center">
-  <img src="assets/ai-collaboration.png" alt="AI-Human Collaboration" width="100%" style="max-width: 800px;"/>
+  <img src="assets/ai-collaboration.png" alt="AI-Human Collaboration" width="80%" style="max-width: 600px;"/>
 </div>
 
 <!--
