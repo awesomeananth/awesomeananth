@@ -1,7 +1,9 @@
 # 👋 Hi, I'm Ananth
 
-**AI Infrastructure & Distributed Systems Engineer**  
-LLM Platforms • RAG • Agentic Systems • Building reliable systems for probabilistic intelligence
+**Member of Technical Staff–Level Engineer**  
+_AI Infrastructure & Distributed Systems Engineer_
+
+Building AI systems, LLM platforms, RAG pipelines, and agentic systems — with a focus on reliability, evaluation, and correctness under uncertainty.
 
 ```python
 while alive:
