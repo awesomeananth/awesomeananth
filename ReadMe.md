@@ -1,9 +1,12 @@
 # 👋 Hi, I'm Ananth
 
-**Member of Technical Staff–Level Engineer**  
-_AI Infrastructure & Distributed Systems Engineer_
+**Member of Technical Staff**  
+_AI Infrastructure · Distributed Systems · Production ML_
 
-Building AI systems, LLM platforms, RAG pipelines, and agentic systems — with a focus on reliability, evaluation, and correctness under uncertainty.
+> "Most engineers are either great at ML or great at systems. I'm exceptional at both—and I know how to make them work together in production."
+
+I bridge the gap between **ML research** and **resilient production systems**.  
+My focus is on reliability, evaluation, and correctness under uncertainty.
 
 ```python
 while alive:
@@ -13,61 +16,31 @@ while alive:
 # Mission: Advancing human intelligence through code and connection
 ```
 
-## 🧠 Focus Areas
+---
 
-- AI Infrastructure & LLM Platforms
-- Machine Learning Engineering & MLOps
-- Evaluation-Driven Development (EDD)
-- Retrieval-Augmented Generation (RAG)
-- Agentic Systems & Tooling
-- Distributed Systems & Reliability
+<div align="center">
+  <img src="assets/connect-banner.png" alt="Connect" width="100%"/>
+</div>
+
+---
 
 ## 🏗️ What I Work On
 
 I design and build production-grade AI systems where large models meet real-world constraints.
+I am especially focused on **turning stochastic AI behavior into predictable system outcomes**.
 
-My background spans distributed systems, cloud platforms, and high-throughput APIs, with recent focus on LLM-backed services, RAG pipelines, and agentic workflows. **I've worked across multiple stacks, with deep expertise in Python-based AI infrastructure on AWS and GCP.** I care less about demos — and more about evaluation, observability, and reliability.
+My background spans distributed systems, cloud platforms, and high-throughput APIs, with deep expertise in Python-based AI infrastructure on AWS and GCP. I care less about demos — and more about **evaluation, observability, and reliability**.
 
-I'm especially interested in:
+### Core Focus Areas
 
-- Turning stochastic AI behavior into predictable system outcomes
-- Designing platforms that let teams experiment safely
-- Bridging classical distributed systems with modern AI infrastructure
+- **AI Infrastructure**: LLM-backed services, RAG pipelines, and Agentic orchestration.
+- **Production Readiness**: Model serving, inference optimization, and cost controls.
+- **Reliability Engineering**: Guardrails, fallbacks, and human-in-the-loop patterns for non-deterministic systems.
+- **Distributed Systems**: Event-driven architectures (Kafka) and high-throughput APIs (gRPC/REST).
 
-## 🔬 Current Focus Areas
-
-**AI Infrastructure**
-- LLM-backed services (RAG, tool use, agent orchestration)
-- Evaluation-driven development (offline + online)
-- Model serving, inference optimization, and cost controls
-
-**Distributed Systems**
-- Event-driven architectures (Kafka-style pipelines)
-- High-throughput, low-latency APIs (REST / gRPC)
-- Concurrency, sharding, partitioning, failure isolation
-
-**Production Readiness**
-- Observability for AI systems (latency, drift, token usage, failure modes)
-- Guardrails, fallbacks, and human-in-the-loop patterns
-- Safe rollout strategies for non-deterministic systems
-
-## 💡 How I Think About AI Systems
-
-AI systems fail differently than traditional software.  
-My job is to make those failures observable, bounded, and recoverable.
-
-**Principles I design around:**
-
-- **Separate invariants from intelligence** — keep business logic deterministic
-- **Evaluate before you scale** — measure behavior, not just accuracy
-- **Assume uncertainty** — design for ambiguity, not perfection
-- **Prefer boring infra** — reliability beats novelty in production
-
-## 💻 Tech Stack
+### Tech Stack
 
 <div align="center">
-
-### Core Engineering Stack
 
 <table>
 <tr>
@@ -103,7 +76,126 @@ My job is to make those failures observable, bounded, and recoverable.
 | Tool-use patterns | Retrieval pipelines | Cost controls | gRPC • REST • ProtoBuf |
 | Prompt engineering | Embedding models | A/B testing | Sharding • Partitioning |
 
-### System Design Expertise
+</div>
+
+---
+
+## 🧪 Featured Projects
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+<a href="https://ananthx.dev">
+<img src="assets/projects/portfolio_ai_cosmos.png" alt="ananthx.dev" width="100%"/>
+</a>
+<br>
+
+**[ananthx.dev](https://ananthx.dev)**
+<br>
+<sub><i>Personal Universe & Portfolio</i></sub>
+<br>
+<sub>Multi-themed AI portfolio with dynamic particle systems and 10 distinct visual themes.</sub>
+<br><br>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="20" /> <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" height="20" />
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<a href="https://archdivine.vercel.app">
+<img src="assets/projects/archdivine.png" alt="ArchDivine" width="100%"/>
+</a>
+<br>
+
+**[ArchDivine](https://archdivine.vercel.app)**
+<br>
+<sub><i>3D Architecture Renderer</i></sub>
+<br>
+<sub>Turns Mermaid syntax into navigable 3D architecture explorations for Staff+ engineers.</sub>
+<br><br>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" height="20" /> <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white" height="20" />
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<a href="https://llmvibe.vercel.app">
+<img src="assets/projects/vibe.png" alt="LLM Vibe" width="100%"/>
+</a>
+<br>
+
+**[LLM Vibe](https://llmvibe.vercel.app)**
+<br>
+<sub><i>LLM Evaluation Tool</i></sub>
+<br>
+<sub>Compare GPT-4, Claude & Gemini side-by-side with structured diff views.</sub>
+<br><br>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" height="20" /> <img src="https://img.shields.io/badge/DevTool-000?style=for-the-badge" height="20" />
+
+</td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top">
+
+<a href="https://nowiknowyou.vercel.app">
+<img src="assets/projects/nowiknow_phasespace.png" alt="NowIKnow" width="100%"/>
+</a>
+<br>
+
+**[NowIKnow](https://nowiknowyou.vercel.app)**
+<br>
+<sub><i>Quant Innovation Lab</i></sub>
+<br>
+<sub>Phase Space Reconstruction & Hurst Analysis for market regime detection.</sub>
+<br><br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="20" /> <img src="https://img.shields.io/badge/Quant-00C7B7?style=for-the-badge" height="20" />
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<a href="https://aims-ivory.vercel.app">
+<img src="assets/projects/aims.png" alt="AIMS" width="100%"/>
+</a>
+<br>
+
+**[AIMS](https://aims-ivory.vercel.app)**
+<br>
+<sub><i>Context-Aware Task AI</i></sub>
+<br>
+<sub>Productivity system that auto-categorizes tasks using LLM-backed intelligence.</sub>
+<br><br>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="20" /> <img src="https://img.shields.io/badge/LLM_Agents-FF4088?style=for-the-badge" height="20" />
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<a href="https://caece.vercel.app">
+<img src="assets/projects/caece.png" alt="CAECE" width="100%"/>
+</a>
+<br>
+
+**[CAECE](https://caece.vercel.app)**
+<br>
+<sub><i>Infra Control Plane</i></sub>
+<br>
+<sub>Ephemeral dev environments management. Think Vercel meets Kubernetes.</sub>
+<br><br>
+<img src="https://img.shields.io/badge/K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" height="20" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" height="20" />
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 🎨 System Design Expertise
+
+I think in systems. Here's how I visually break down complex architectures:
+
+<div align="center">
 
 <table>
 <tr>
@@ -173,52 +265,38 @@ graph TD
 
 </div>
 
-## 🚧 Current Work
+---
 
-Currently building reference implementations for production AI systems. **Reach out to discuss my production work, system design decisions, and infrastructure tradeoffs.**
+## 🚀 Experience
 
-<!--
-## 🧪 What You'll Find in My Repos (Disabled - enable when repos are ready)
+I've led 0→1 AI systems at scale.
+For detailed case studies of my work at **Costco Wholesale** (Forecasting with LLMs) and **NYC DOT** (Digital Twin Infrastucture), explore my interactive portfolio:
 
-Rather than toy projects, my repositories tend to focus on:
+<div align="center">
+  <a href="https://ananthx.dev">
+    <img src="https://img.shields.io/badge/View_Deep_Dives_@_Ananthx.dev-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="View Full Experience" height="50"/>
+  </a>
+</div>
 
-- Infrastructure patterns for AI systems
-- Reference architectures for RAG and agent workflows
-- Evaluation harnesses for LLM behavior
-- Design notes on scaling, reliability, and tradeoffs
+---
 
-I value clarity over cleverness and design rationale over flash.
--->
+## 💡 Philosophy
 
+AI systems fail differently than traditional software. My job is to make those failures observable, bounded, and recoverable.
 
+**Principles I design around:**
 
-## 🔍 Open Source & Learning
+- **Reliability First**: In distributed systems, assume failure is the default, not the exception.
+- **Separate invariants from intelligence**: Keep business logic deterministic.
+- **Empathy driven**: The difference between good and great engineers is empathy for the next developer.
+- **Simplicity**: Code is poetry written for machines to execute and humans to understand.
 
-I actively explore and learn from:
-
-- Agent frameworks and orchestration patterns
-- LLM evaluation tooling
-- Distributed data and inference pipelines
-
-When I contribute, it's usually around infrastructure, correctness, or system boundaries rather than surface features.
-
-## 🎯 What I'm Optimizing For
-
-- Building systems that age well
-- Making AI behavior measurable
-- Reducing operational risk as intelligence increases
-- Helping teams move faster without losing control
+---
 
 ## 🌐 Let's Connect
 
 <div align="center">
-  <img src="assets/connect-banner.png" alt="Connect" width="80%" style="max-width: 600px;"/>
-</div>
 
-<div align="center">
-  
-### 📬 Reach Out
-  
 <table>
 <tr>
 <td align="center" width="33%">
@@ -261,12 +339,3 @@ When I contribute, it's usually around infrastructure, correctness, or system bo
 <div align="center">
   <img src="assets/ai-collaboration.png" alt="AI-Human Collaboration" width="80%" style="max-width: 600px;"/>
 </div>
-
-<!--
-## 📈 GitHub Activity (Optional)
-
-<div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=awesomeananth&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9"/>
-  <img height="165em" src="https://github-readme-streak-stats.herokuapp.com/?user=awesomeananth&hide_border=true&background=0D1117&ring=58A6FF&fire=F78166&currStreakLabel=58A6FF"/>
-</div>
--->
